@@ -14,7 +14,13 @@
     background: #FF900E;
     width: 180px;
     height: 64px;
-    flex-shrink: 0;
+    padding: 7px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
 }
 
 /* header styles */
@@ -79,4 +85,32 @@ nav>h3 {
     font-weight: 400;
     line-height: 26px;
     /* 162.5% */
+}
+
+.banner-img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* responsive media quiry */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (max-width:960px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }
